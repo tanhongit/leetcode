@@ -1,3 +1,7 @@
+# Solution URL
+
+https://leetcode.com/problems/spiral-matrix-iii/solutions/5606322/solution-beat-100-php/
+
 # Intuition
 <!-- Describe your first thoughts on how to solve this problem. -->
 - To traverse all the cells in a grid of size `rows * cols` starting from a specific position (`rStart`, `cStart`) in a spiral order, we can use an array of directions and a variable to keep track of the number of steps needed in each direction.
