@@ -1,3 +1,7 @@
+# Solution URL
+
+https://leetcode.com/discuss/topic/5611092/solution-100-beats-in-php-with-explanation/
+
 # Intuition
 
 To determine how many `3x3` subgrids within a given grid are magic squares, we need to check each possible `3x3` subgrid.
