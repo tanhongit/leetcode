@@ -4,7 +4,7 @@ https://leetcode.com/problems/spiral-matrix-iii/solutions/5606322/solution-beat-
 
 # Intuition
 <!-- Describe your first thoughts on how to solve this problem. -->
-- To traverse all the cells in a grid of size `rows * cols` starting from a specific position (`rStart`, `cStart`) in a spiral order, we can use an array of directions and a variable to keep track of the number of steps needed in each direction.
+- To traverse all the cells in a grid of size `rows * cols` starting from a specific position (`rStart`, `cStart`) in spiral order, we can use an array of directions and a variable to keep track of the number of steps needed in each direction.
 - We will move in sequential directions: **right, down, left, and up**, increasing the number of steps after every two directions (one complete cycle).
 
 # Approach
@@ -17,11 +17,11 @@ https://leetcode.com/problems/spiral-matrix-iii/solutions/5606322/solution-beat-
 - After every two directions, increment the number of steps required.
 
 # Complexity
-- Time complexity: **O(n×m)**
+- Time complexity: $O(n \times m)$
 
 We will traverse all cells in the grid once, so the time complexity is linear with respect to the number of cells in the grid, or `O(n×m)`, where `n` is the number of rows and `m` is the number of columns.
 
-- Space complexity: **O(n×m)**
+- Space complexity: $O(n \times m)$
 
 The result array `ans` will contain all positions of the grid, so the space complexity is also linear with respect to the number of cells in the grid, or `O(n×m)`.
 
@@ -63,3 +63,5 @@ class Solution
 }
 
 ```
+
+If it can help you, please give me an upvote. Thank you so much for reading!
