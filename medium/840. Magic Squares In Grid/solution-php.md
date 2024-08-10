@@ -29,7 +29,7 @@ To determine how many `3x3` subgrids within a given grid are magic squares, we n
     If the helper function returns true, increment the counter `$res`.
 
 # Complexity
-- **Time complexity**: **$O(\text{m} \times \text{n})$** is the number of rows and (n) is the number of columns in the grid. We iterate over each possible `3x3` subgrid and check if it is a magic square.
+- **Time complexity**: $O(\text{m} \times \text{n})$ is the number of rows and (n) is the number of columns in the grid. We iterate over each possible `3x3` subgrid and check if it is a magic square.
 
 - **Space complexity**: $O(1)$, aside from the input grid, as we use a constant amount of extra space to store the set of numbers and the sums.
 
@@ -110,4 +110,4 @@ class Solution {
 }
 ```
 
-If it can help you, please give me a upvote. Thank you so for reading!
+If it can help you, please give me an upvote. Thank you so much for reading!
