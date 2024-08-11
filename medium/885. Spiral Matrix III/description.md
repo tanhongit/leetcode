@@ -11,7 +11,7 @@ Return an array of coordinates representing the positions of the grid in the ord
 
 Example 1:
 
-![img.png](img.png)
+![img.png](assets/img.png)
 
 > **Input:** rows = 1, cols = 4, rStart = 0, cStart = 0
 > 
@@ -19,7 +19,7 @@ Example 1:
 
 Example 2:
 
-![img_1.png](img_1.png)
+![img_1.png](assets/img_1.png)
 
 > **Input:** rows = 5, cols = 6, rStart = 1, cStart = 4
 > 

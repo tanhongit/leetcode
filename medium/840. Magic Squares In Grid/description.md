@@ -7,7 +7,7 @@ Given a `row x col` `grid` of integers, how many `3 x 3` contiguous magic square
 
 Note: while a magic square can only contain numbers from 1 to 9, grid may contain numbers up to 15.
 
-![img.png](img.png)
+![img.png](assets/img.png)
 
 **Example 1:**
 
@@ -16,11 +16,11 @@ Note: while a magic square can only contain numbers from 1 to 9, grid may contai
 - Output: 1
 - Explanation: The following subgrid is a `3 x 3` magic square:
 
-![img_1.png](img_1.png)
+![img_1.png](assets/img_1.png)
 
 while this one is not:
 
-![img_2.png](img_2.png)
+![img_2.png](assets/img_2.png)
 - 
 In total, there is only one magic square inside the given grid.
 
