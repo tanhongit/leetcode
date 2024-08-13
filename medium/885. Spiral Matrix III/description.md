@@ -11,11 +11,15 @@ Return an array of coordinates representing the positions of the grid in the ord
 
 Example 1:
 
+![img.png](assets/img.png)
+
 > **Input:** rows = 1, cols = 4, rStart = 0, cStart = 0
 > 
 > **Output:** [[0,0],[0,1],[0,2],[0,3]]
 
 Example 2:
+
+![img_1.png](assets/img_1.png)
 
 > **Input:** rows = 5, cols = 6, rStart = 1, cStart = 4
 > 
@@ -24,6 +28,6 @@ Example 2:
 
 Constraints:
 
-- 1 <= rows, cols <= 100
-- 0 <= rStart < rows
-- 0 <= cStart < cols
+- `1 <= rows, cols <= 100`
+- `0 <= rStart < rows`
+- `0 <= cStart < cols`
